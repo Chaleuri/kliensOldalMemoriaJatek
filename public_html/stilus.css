@@ -1,0 +1,33 @@
+input:hover , img:hover{
+    cursor: pointer;
+}
+
+img {
+    width: 92px;
+}
+
+#jatekter {
+    display: grid;
+    grid-template-columns: 92px 92px 92px ;
+    grid-template-rows: 137px 137px 137px 137px;
+    grid-gap: 12px;
+    width: 300px;
+    margin: 0 auto 0 auto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: 20px auto 20px auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background: grey;
+    border-radius: 20px 20px 0;
+}
+
